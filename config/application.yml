@@ -12,3 +12,8 @@
 
 facebook_app_id: "308376989588423"
 facebook_app_secret: "d5f02838d7147618c18b19db601b714e"
+
+S3_BUCKET_NAME: "wm-petshuggy-test"
+AWS_ACCESS_KEY_ID: "AKIAJ6RFRAZPRCVKZNTQ"
+AWS_SECRET_ACCESS_KEY: "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"
+AWS_REGION: "ap-northeast-1"
