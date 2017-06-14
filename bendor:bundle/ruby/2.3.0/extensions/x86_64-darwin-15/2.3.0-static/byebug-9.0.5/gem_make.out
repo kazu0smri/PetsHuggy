@@ -1,0 +1,19 @@
+current directory: /Users/kazuenjinia/Desktop/PetsHuggy/bendor:bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
+/Users/kazuenjinia/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20170610-30120-144dkwj.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kazuenjinia/Desktop/PetsHuggy/bendor:bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/kazuenjinia/Desktop/PetsHuggy/bendor:bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/kazuenjinia/Desktop/PetsHuggy/bendor:bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20170610-30120-zazgnv/byebug
