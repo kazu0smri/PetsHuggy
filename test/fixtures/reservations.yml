@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  listing_id: 
+  start_data: 2017-06-14 18:54:56
+  end_data: 2017-06-14 18:54:56
+  price_pernight: 1
+  total_price: 1
+
+two:
+  user_id: 
+  listing_id: 
+  start_data: 2017-06-14 18:54:56
+  end_data: 2017-06-14 18:54:56
+  price_pernight: 1
+  total_price: 1

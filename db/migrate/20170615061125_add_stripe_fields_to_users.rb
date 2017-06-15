@@ -1,0 +1,10 @@
+class AddStripeFieldsToUsers < ActiveRecord::Migration
+  def change
+    add_column :users, :publishable, :string
+    add_column :users, :key, :string
+    add_column :users, :secret_key, :string
+    add_column :users, :stripe_user_id, :string
+    add_column :users, :currency, :string
+    add_column :users, :stripe_account_type, :string
+  end
+end

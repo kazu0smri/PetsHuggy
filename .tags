@@ -1,27 +1,12 @@
-User	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	class	line:1
-from_omniauth	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/user.rb	/^  def self.from_omniauth(auth)$/;"	singleton method	line:9	class:User
 ApplicationHelper	/Users/kazuenjinia/Desktop/PetsHuggy/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	module	line:1
 controller?	/Users/kazuenjinia/Desktop/PetsHuggy/app/helpers/application_helper.rb	/^  def controller?(controller)$/;"	method	line:3	class:ApplicationHelper
 action?	/Users/kazuenjinia/Desktop/PetsHuggy/app/helpers/application_helper.rb	/^  def action?(action)$/;"	method	line:6	class:ApplicationHelper
+PhotosController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^class PhotosController < ApplicationController$/;"	class	line:1
+create	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def create$/;"	method	line:2	class:PhotosController
+destroy	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def destroy$/;"	method	line:11	class:PhotosController
+list	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def list$/;"	method	line:20	class:PhotosController
+photo_params	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def photo_params$/;"	method	line:37	class:PhotosController
 Listing	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/listing.rb	/^class Listing < ActiveRecord::Base$/;"	class	line:1
-Photo	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/photo.rb	/^class Photo < ActiveRecord::Base$/;"	class	line:1
-ListingsController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^class ListingsController < ApplicationController$/;"	class	line:1
-index	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def index$/;"	method	line:5	class:ListingsController
-show	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def show$/;"	method	line:8	class:ListingsController
-new	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def new$/;"	method	line:11	class:ListingsController
-create	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def create$/;"	method	line:16	class:ListingsController
-edit	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def edit$/;"	method	line:28	class:ListingsController
-update	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def update$/;"	method	line:31	class:ListingsController
-basics	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def basics$/;"	method	line:36	class:ListingsController
-description	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def description$/;"	method	line:38	class:ListingsController
-address	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def address$/;"	method	line:40	class:ListingsController
-price	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def price$/;"	method	line:42	class:ListingsController
-photos	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def photos$/;"	method	line:44	class:ListingsController
-calendar	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def calendar$/;"	method	line:47	class:ListingsController
-bankaccount	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def bankaccount$/;"	method	line:49	class:ListingsController
-publish	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def publish$/;"	method	line:51	class:ListingsController
-listing_params	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def listing_params$/;"	method	line:55	class:ListingsController
-set_listing	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def set_listing$/;"	method	line:59	class:ListingsController
 .jumbotron	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.jumbotron {$/;"	function	line:8
 .jumbotron .container .row	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.jumbotron .container .row{$/;"	function	line:18
 .navbar-default	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.navbar-default {$/;"	function	line:23
@@ -33,37 +18,119 @@ set_listing	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_contro
 .navbar-devise .navbar-brand	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.navbar-devise .navbar-brand {$/;"	function	line:54
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {$/;"	function	line:59
 .btn-facebook	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.btn-facebook {$/;"	function	line:65
-.profile-0	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-0{$/;"	function	line:71
-.profile-1	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-1{$/;"	function	line:76
-.profile-2	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-2{$/;"	function	line:81
-.profile-full	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-full {$/;"	function	line:86
-@media (min-width: 992px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (min-width: 992px){$/;"	function	line:90
-.profile-full	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-full {$/;"	function	line:91
-.row-space-1	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-1 {$/;"	function	line:96
-.row-space-2	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-2 {$/;"	function	line:100
-.row-space-3	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-3 {$/;"	function	line:104
-.row-space-4	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-4 {$/;"	function	line:108
-.btn-full	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.btn-full {$/;"	function	line:112
-.vertification-checked:before	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.vertification-checked:before{$/;"	function	line:116
-@media (min-width: 768px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (min-width: 768px) {$/;"	function	line:129
-.sidebar-nav .navbar .navbar-collapse	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar .navbar-collapse {$/;"	function	line:130
-.sidebar-nav .navbar ul	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar ul {$/;"	function	line:134
-.sidebar-nav .navbar ul:not	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar ul:not {$/;"	function	line:137
-.sidebar-nav .navbar li	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar li {$/;"	function	line:140
-.sidebar-nav .navbar li a	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar li a {$/;"	function	line:144
-.sidebar-nav .navbar-default .navbar-nav > li > a	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-default .navbar-nav > li > a {$/;"	function	line:150
-.sidebar-nav .navbar-default .navbar-nav > li	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-default .navbar-nav > li{$/;"	function	line:155
-.sidebar-nav .navbar-default .navbar-nav > li:first-child	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-default .navbar-nav > li:first-child {$/;"	function	line:162
-.sidebar-nav .navbar-toggle	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-toggle {$/;"	function	line:166
-@media (max-width: 768px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (max-width: 768px){$/;"	function	line:171
-.dz-preview, .dz-processing, .dz-image-preview, .dz-error, .dz-complete	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .dz-preview, .dz-processing, .dz-image-preview, .dz-error, .dz-complete {$/;"	function	line:172
-.dropzone .dz-preview .dz-image	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .dropzone .dz-preview .dz-image {$/;"	function	line:176
-.dropzone .dz-preview .dz-image img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .dropzone .dz-preview .dz-image img {$/;"	function	line:179
-.dropzone .dz-preview .dz-image img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.dropzone .dz-preview .dz-image img{$/;"	function	line:184
-.dropzone.dz-started .dz-message	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.dropzone.dz-started .dz-message {$/;"	function	line:189
-body	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^body {$/;"	function	line:193
-PhotosController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^class PhotosController < ApplicationController$/;"	class	line:1
-create	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def create$/;"	method	line:2	class:PhotosController
-destroy	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def destroy$/;"	method	line:11	class:PhotosController
-list	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def list$/;"	method	line:20	class:PhotosController
-photo_params	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/photos_controller.rb	/^  def photo_params$/;"	method	line:37	class:PhotosController
+.row-space-top-0	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-top-0 {$/;"	function	line:72
+.row-space-top-1	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-top-1 {$/;"	function	line:76
+.row-space-top-2	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-top-2 {$/;"	function	line:80
+.row-space-top-3	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-top-3 {$/;"	function	line:84
+.row-space-top-4	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-top-4 {$/;"	function	line:88
+.row-space-0	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-0 {$/;"	function	line:92
+.row-space-1	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-1 {$/;"	function	line:95
+.row-space-2	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-2 {$/;"	function	line:99
+.row-space-3	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-3 {$/;"	function	line:103
+.row-space-4	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-space-4 {$/;"	function	line:107
+.profile-0	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-0 {$/;"	function	line:112
+.profile-1	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-1 {$/;"	function	line:117
+.profile-2	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-2 {$/;"	function	line:122
+.profile-full	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-full {$/;"	function	line:127
+@media (min-width: 992px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (min-width: 992px){$/;"	function	line:132
+.profile-full	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.profile-full {$/;"	function	line:133
+.btn-full	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.btn-full {$/;"	function	line:139
+.vertification-checked:before	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.vertification-checked:before{$/;"	function	line:143
+@media (min-width: 768px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (min-width: 768px) {$/;"	function	line:156
+.sidebar-nav .navbar .navbar-collapse	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar .navbar-collapse {$/;"	function	line:157
+.sidebar-nav .navbar ul	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar ul {$/;"	function	line:161
+.sidebar-nav .navbar ul:not	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar ul:not {$/;"	function	line:164
+.sidebar-nav .navbar li	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar li {$/;"	function	line:167
+.sidebar-nav .navbar li a	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .sidebar-nav .navbar li a {$/;"	function	line:171
+.sidebar-nav .navbar-default .navbar-nav > li > a	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-default .navbar-nav > li > a {$/;"	function	line:177
+.sidebar-nav .navbar-default .navbar-nav > li	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-default .navbar-nav > li{$/;"	function	line:182
+.sidebar-nav .navbar-default .navbar-nav > li:first-child	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-default .navbar-nav > li:first-child {$/;"	function	line:189
+.sidebar-nav .navbar-toggle	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-nav .navbar-toggle {$/;"	function	line:193
+@media (max-width: 768px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (max-width: 768px){$/;"	function	line:198
+.dz-preview, .dz-processing, .dz-image-preview, .dz-error, .dz-complete	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .dz-preview, .dz-processing, .dz-image-preview, .dz-error, .dz-complete {$/;"	function	line:199
+.dropzone .dz-preview .dz-image	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .dropzone .dz-preview .dz-image {$/;"	function	line:203
+.dropzone .dz-preview .dz-image img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .dropzone .dz-preview .dz-image img {$/;"	function	line:206
+.dropzone .dz-preview .dz-image img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.dropzone .dz-preview .dz-image img{$/;"	function	line:211
+.dropzone.dz-started .dz-message	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.dropzone.dz-started .dz-message {$/;"	function	line:216
+a.sidebar-item	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^a.sidebar-item {$/;"	function	line:221
+.sidebar-list li.active	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.sidebar-list li.active {$/;"	function	line:226
+.ul-unstyled	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.ul-unstyled{$/;"	function	line:230
+li.panel-body	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^li.panel-body {$/;"	function	line:234
+li.panel-body:first-child	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^li.panel-body:first-child {$/;"	function	line:238
+span.listing-title	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^span.listing-title {$/;"	function	line:242
+.row-table	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.row-table{$/;"	function	line:246
+.col-middle	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.col-middle{$/;"	function	line:252
+.panel-list-img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.panel-list-img {$/;"	function	line:258
+.panel-list-img img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.panel-list-img img {$/;"	function	line:262
+@media (max-width: 767px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (max-width: 767px){$/;"	function	line:267
+.row-table, .col-middle	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .row-table, .col-middle{$/;"	function	line:268
+.panel-list-img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .panel-list-img {$/;"	function	line:272
+.container-listing-show	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.container-listing-show {$/;"	function	line:279
+.panel-show	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.panel-show {$/;"	function	line:284
+.panel-show .panel-heading	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.panel-show .panel-heading{$/;"	function	line:289
+.panel-show .panel-body	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.panel-show .panel-body{$/;"	function	line:296
+.btn-wide	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.btn-wide{$/;"	function	line:300
+@media (min-width: 992px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (min-width: 992px){$/;"	function	line:305
+.panel-show	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .panel-show {$/;"	function	line:306
+.panel-listing img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.panel-listing img {$/;"	function	line:315
+@media (min-width: 992px)	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^@media (min-width: 992px){$/;"	function	line:321
+.panel-listing img	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^  .panel-listing img {$/;"	function	line:322
+.price-card	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.price-card {$/;"	function	line:327
+.class-holiday	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.class-holiday {$/;"	function	line:336
+.class-holiday > .ui-state-default	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.class-holiday > .ui-state-default {$/;"	function	line:341
+.calendar .ui-datepicker	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.calendar .ui-datepicker {$/;"	function	line:346
+.calendar .ui-datepicker .ui-datepicker-current-day	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^.calendar .ui-datepicker .ui-datepicker-current-day {$/;"	function	line:349
+#datepicker .ui-datepicker .ui-datepicker-current-day a	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^#datepicker .ui-datepicker .ui-datepicker-current-day a{$/;"	function	line:352
+a	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^a {$/;"	function	line:357
+body	/Users/kazuenjinia/Desktop/PetsHuggy/app/assets/stylesheets/application.scss	/^body {$/;"	function	line:361
+ReservationsController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^class ReservationsController < ApplicationController$/;"	class	line:1
+index	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^  def index$/;"	method	line:3	class:ReservationsController
+reserved	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^  def reserved$/;"	method	line:7	class:ReservationsController
+create	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^  def create$/;"	method	line:11	class:ReservationsController
+setdate	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^  def setdate$/;"	method	line:57	class:ReservationsController
+duplicate	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^  def duplicate$/;"	method	line:66	class:ReservationsController
+reservation_params	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^    def reservation_params$/;"	method	line:78	class:ReservationsController
+is_duplicate	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/reservations_controller.rb	/^    def is_duplicate(start_date, end_date)$/;"	method	line:82	class:ReservationsController
+Photo	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/photo.rb	/^class Photo < ActiveRecord::Base$/;"	class	line:1
+ApplicationController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
+configure_permitted_parameters	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/application_controller.rb	/^  def configure_permitted_parameters$/;"	method	line:10	class:ApplicationController
+facebook_app_id	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^facebook_app_id: "308376989588423"$/;"	function	line:13
+facebook_app_secret	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^facebook_app_secret: "d5f02838d7147618c18b19db601b714e"$/;"	function	line:14
+S3_BUCKET_NAME	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^S3_BUCKET_NAME: "wm-petshuggy-test"$/;"	function	line:16
+AWS_ACCESS_KEY_ID	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^AWS_ACCESS_KEY_ID: "AKIAJVGAYN5AWXXQQRCQ"$/;"	function	line:17
+AWS_SECRET_ACCESS_KEY	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^AWS_SECRET_ACCESS_KEY: "W6bPE3IEImWEau\/K0KCmYMunA767jZdqnnJZd2Tx"$/;"	function	line:18
+AWS_REGION	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^AWS_REGION: "ap-northeast-1"$/;"	function	line:19
+STRIPE_CONNECT_CLIENT_ID	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^STRIPE_CONNECT_CLIENT_ID: "ca_AqYEGUwnpWwulUr11L3fdmqt1heMv0rq"$/;"	function	line:21
+STRIPE_SECRET_KEY	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^STRIPE_SECRET_KEY: "sk_test_5z04G5dcqeIb8aijPZvQAyhG"$/;"	function	line:22
+STRIPE_PUBLISHABLE_KEY	/Users/kazuenjinia/Desktop/PetsHuggy/config/application.yml	/^STRIPE_PUBLISHABLE_KEY: "pk_test_rZP59IKgfJb1Qy3pfTYKOWGg"$/;"	function	line:23
+StripeOauth	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^class StripeOauth < Struct.new( :user )$/;"	class	line:1
+oauth_url	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^  def oauth_url( params )$/;"	method	line:3	class:StripeOauth
+verify!	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^  def verify!( code )$/;"	method	line:58	class:StripeOauth
+deauthorize!	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^  def deauthorize!$/;"	method	line:76	class:StripeOauth
+deauthorized	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^  def deauthorized$/;"	method	line:92	class:StripeOauth
+default_currency	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^  def default_currency$/;"	method	line:105	class:StripeOauth
+client	/Users/kazuenjinia/Desktop/PetsHuggy/app/services/stripe_oauth.rb	/^  def client$/;"	method	line:112	class:StripeOauth
+StripeController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/stripe_controller.rb	/^class StripeController < ApplicationController$/;"	class	line:1
+oauth	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/stripe_controller.rb	/^  def oauth$/;"	method	line:6	class:StripeController
+confirm	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/stripe_controller.rb	/^  def confirm$/;"	method	line:21	class:StripeController
+deauthorize	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/stripe_controller.rb	/^  def deauthorize$/;"	method	line:38	class:StripeController
+ListingsController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^class ListingsController < ApplicationController$/;"	class	line:1
+index	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def index$/;"	method	line:5	class:ListingsController
+show	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def show$/;"	method	line:9	class:ListingsController
+new	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def new$/;"	method	line:13	class:ListingsController
+create	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def create$/;"	method	line:18	class:ListingsController
+edit	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def edit$/;"	method	line:30	class:ListingsController
+update	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def update$/;"	method	line:33	class:ListingsController
+basics	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def basics$/;"	method	line:38	class:ListingsController
+description	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def description$/;"	method	line:40	class:ListingsController
+address	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def address$/;"	method	line:42	class:ListingsController
+price	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def price$/;"	method	line:44	class:ListingsController
+photos	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def photos$/;"	method	line:46	class:ListingsController
+calendar	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def calendar$/;"	method	line:49	class:ListingsController
+bankaccount	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def bankaccount$/;"	method	line:51	class:ListingsController
+publish	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def publish$/;"	method	line:55	class:ListingsController
+listing_params	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def listing_params$/;"	method	line:59	class:ListingsController
+set_listing	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def set_listing$/;"	method	line:63	class:ListingsController
+User	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	class	line:1
+from_omniauth	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/user.rb	/^  def self.from_omniauth(auth)$/;"	singleton method	line:13	class:User
+connected?	/Users/kazuenjinia/Desktop/PetsHuggy/app/models/user.rb	/^  def connected?$/;"	method	line:25	class:User
