@@ -4,3 +4,22 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+ListingsController	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^class ListingsController < ApplicationController$/;"	class	line:1
+index	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def index$/;"	method	line:6	class:ListingsController
+show	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def show$/;"	method	line:10	class:ListingsController
+new	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def new$/;"	method	line:19	class:ListingsController
+create	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def create$/;"	method	line:24	class:ListingsController
+edit	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def edit$/;"	method	line:36	class:ListingsController
+update	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def update$/;"	method	line:39	class:ListingsController
+basics	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def basics$/;"	method	line:44	class:ListingsController
+description	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def description$/;"	method	line:46	class:ListingsController
+address	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def address$/;"	method	line:48	class:ListingsController
+price	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def price$/;"	method	line:50	class:ListingsController
+photos	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def photos$/;"	method	line:52	class:ListingsController
+calendar	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def calendar$/;"	method	line:55	class:ListingsController
+bankaccount	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def bankaccount$/;"	method	line:57	class:ListingsController
+publish	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def publish$/;"	method	line:61	class:ListingsController
+not_checked	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def not_checked$/;"	method	line:64	class:ListingsController
+listing_params	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def listing_params$/;"	method	line:70	class:ListingsController
+set_listing	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def set_listing$/;"	method	line:74	class:ListingsController
+access_deny	/Users/kazuenjinia/Desktop/PetsHuggy/app/controllers/listings_controller.rb	/^  def access_deny$/;"	method	line:78	class:ListingsController
